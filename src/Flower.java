@@ -5,6 +5,22 @@ public abstract class Flower {
     protected double neededArea;
     protected double chanceOfGrowth;
 
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getNeededArea() {
+        return neededArea;
+    }
+
+    public double getChanceOfGrowth() {
+        return chanceOfGrowth;
+    }
+
     @Override
     public String toString() {
         return "Flower{" +
